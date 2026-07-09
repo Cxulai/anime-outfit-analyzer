@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Models (downloaded at runtime)
+models_cache/
+*.pt
+*.bin
+*.safetensors
+
+# Test artifacts
+test_image.png
+test_outfit.jpg
+test_*.png
+test_*.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+*.spec.bak
